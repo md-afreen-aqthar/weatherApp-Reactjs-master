@@ -3,7 +3,7 @@ import apiKeys from "./apiKeys";
 import Clock from "react-live-clock";
 import Forcast from "./forcast";
 import loader from "./images/WeatherIcons.gif";
-import ReactAnimatedWeather from "./images/react-animated-weather";
+
 
 const dateBuilder = (d) => {
   let months = [
@@ -164,12 +164,7 @@ class Weather extends React.Component {
             </div>
             <div className="mb-icon">
               {" "}
-              <ReactAnimatedWeather
-                icon={this.state.icon}
-                color={defaults.color}
-                size={defaults.size}
-                animate={defaults.animate}
-              />
+              
               <p>{this.state.main}</p>
             </div>
             <div className="date-time">
