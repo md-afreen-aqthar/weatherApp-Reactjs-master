@@ -4,6 +4,7 @@ import Clock from "react-live-clock";
 import Forcast from "./forcast";
 import loader from "./images/WeatherIcons.gif";
 import ReactAnimatedWeather from "./images/react-animated-weather";
+
 const dateBuilder = (d) => {
   let months = [
     "January",
